@@ -4,85 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Log in nomad</title>
+    <title>Profile | Uzbekgram</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 
 <body>
-    <main class="login">
-        <div class="login__column">
-            <img src="images/phoneImage.png" class="login__image">
-        </div>
-        <div class="login__column">
-            <div class="login__box">
-                <img src="images/logo.png" class="login__logo">
-                <form action="feed.html" method="post">
-                    <input type="text" placeholder="Username" name="username" required>
-                    <input type="password" placeholder="Password" name="password" required>
-                    <input type="submit" value="Log in">
-                </form>
-                <span class="login__divider">or</span>
-                <a href="#" class="login__link login__link--dark">Login with Facebook</a>
-                <a href="#" class="login__link login__link--dark login__link--small">Forgot password</a>
-            </div>
-            <div class="login__box">
-                <span>Don't have an account?</span>
-                <a href="#" class="login__link">Sign up</a>
-            </div>
-            <div class="login__app">
-                <span>Get the app</span>
-                <div class="login__appstores">
-                    <a href="#">
-                        <img src="images/ios.png" alt="" class="login__appstore">
+    <header class="header">
+        <a href="feed.html">
+            <img src="images/logo.png" class="header__logo">
+        </a>
+        <form class="header__form">
+            <input type="text" placeholder="Search" class="header__input">
+        </form>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="explore.html" class="header__link">
+                        <i class="far fa-compass"></i>
                     </a>
-                    <a href="#">
-                        <img src="images/android.png" alt="" class="login__appstore">
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__link">
+                        <i class="far fa-heart"></i>
                     </a>
+                </li>
+                <li class="header__list-item">
+                    <a href="profile.html" class="header__link">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile">
+        <header class="profile__header">
+            <div class="profile__column">
+                <img src="images/avatar.jpg" class="profile__avatar">
+            </div>
+            <div class="profile__column">
+                <div class="profile__info">
+                    <h1 class="profile__username">serranoarevalo</h1>
+                    <a href="#" class="profile__link">Edit profile</a>
+                    <i class="fas fa-cog"></i>
                 </div>
+                <ul class="profile__data">
+                    <li class="profile__counter">
+                        <span class="profile__count-number">123</span> posts
+                    </li>
+                    <li class="profile__counter">
+                        <span class="profile__count-number">123</span> followers
+                    </li>
+                    <li class="profile__counter">
+                        <span class="profile__count-number">123</span> following
+                    </li>
+                </ul>
+                <p class="profile__bio">
+                    <span class="profile__full-name">Nicolas Serrano Arevalo</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
+                    alias totam maiores maxime provident ut repellat possimus nulla eum? Ea nobis cupiditate eius. Voluptate
+                    vel fugiat esse, facilis earum voluptatum.
+                </p>
+                <a href="http://serranoarevalo.com">serranoarevalo.com</a>
             </div>
-        </div>
-    </main>
+        </header>
     </main>
 
     <footer class="footer">
-        <nav calss="footer__nav">
+        <nav class="footer__nav">
             <ul class="footer__list">
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">About Us</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Support</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Blog</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Press</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Api</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Jobs</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Privacy</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Terms</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Directory</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__link"></a>
+                    <a href="#" class="footer__link">Profiles</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer__link">Language</a>
                 </li>
             </ul>
-
         </nav>
-        <span class="footer__copyright">2018 nomad</span>
+        <span class="footer__copyright">© 2018 Uzbekgram</span>
     </footer>
-
 </body>
-</main>
 
 </html>
