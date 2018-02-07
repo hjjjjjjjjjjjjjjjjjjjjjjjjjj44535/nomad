@@ -1,0 +1,234 @@
+.feed {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+  align-items: center; 
+}
+
+.feed .feed__column:first-child {
+  width: 55%
+  height: 540px; 
+}
+
+.feed .feed__column:last-child {
+  width: 40%
+  height: 700px; 
+
+}
+
+.feed__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+    
+    
+    
+}
+.feed__column .login__column{
+
+    display: flex;
+   margin-bottom: 50px; 
+    flex-direction: column;
+    align-items: center; 
+}
+.login__column .login-down,
+.login__column .login-divide,
+.login__column .login-upper{
+    flex-direction: column;
+    align-items: center; 
+    display: flex;
+}
+
+.login__upper .login__logo{
+    width:230px;
+    height:50px;
+}
+
+.login__column .login__upper
+{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; 
+    
+}
+.login__column .login-divide,
+.login-down .login__explanation
+{
+
+    padding: 5px 0;
+    font-size: 14px;
+    padding-left: 25px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 128, 255);
+    background-color:rgb(0, 128, 255); }
+
+
+.login앱을다운 .ico3{
+    display: flex;
+    flex-direction: row; 
+
+
+}
+
+
+
+.ico3 .i
+{
+    height: 55px;
+}
+
+
+.login앱을다운 .앱다운-아이콘3
+{display: flex;
+    flex-direction:row; 
+}
+
+/*
+.photo .photo__file {
+  max-width: 100%;
+  width: 100%;
+}
+
+.feed__column .story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.story .story__avatar {
+  margin-right: 15px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.story__info .story__username {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.story__info .story__subtitle {
+  color: #999;
+  font-size: 13px;
+}
+
+.feed__column .feed__story-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.feed__story-divider .feed__story-text {
+  font-weight: 600;
+}
+
+.feed__story-divider .feed__story-text:first-child {
+  color: #999;
+}
+
+.feed__story-divider .feed__story-text:last-child {
+  cursor: pointer;
+}
+
+.feed__column .photo {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  margin-bottom: 50px;
+}
+
+.photo .photo__header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.photo__info .photo__username {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.photo__header .photo__avatar {
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.photo .photo__content {
+  padding: 15px;
+}
+
+.photo__actions-container .photo__action:last-child {
+  margin-left: 15px;
+}
+
+.photo__content .photo__actions,
+.photo__content .photo__likes,
+.photo__comments .photo__comment,
+.photo__content .photo__date {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.photo__content .photo__actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.photo__content .photo__likes {
+  font-weight: 600;
+}
+
+.photo__comment .photo__comment-writer {
+  font-weight: 600;
+}
+
+.photo__content .photo__date {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.photo__content .photo__add-comment-container {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  justify-content: space-between;
+}
+
+.photo__add-comment-container .photo__textarea {
+  width: 95%;
+  border: 0;
+  resize: none;
+  font-size: 14px;
+}
+
+.photo__add-comment-container .photo__textarea:focus,
+.photo__add-comment-container .photo__textarea:active {
+  outline: none;
+}
+
+.clicked-heart {
+  color: red;
+  animation: pump 0.5s linear infinite;
+}
+
+@keyframes pump {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: none;
+  }
+}
