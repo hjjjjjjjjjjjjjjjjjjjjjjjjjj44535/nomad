@@ -1,0 +1,48 @@
+body {
+  font-family: "굴림", Gulim, Arial, sans-serif;
+  font-size: 14px;
+}
+.uppermain .프로필3개 {
+  display: flex;
+  justify-content: space-between;
+}
+.프로필3개 .프로필 {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  margin-bottom: 50px;
+}
+.사람찾기설명 .사람찾기설명텍스트 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.프로필 .사람찾기설명 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+.uppermain .uppermainspan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.프로필 .프로필두개묶 {
+  margin: 26px 96px 26px 96px;
+  width: 100px;
+  height: 170px;
+}
+.프로필두개묶 .프로필사진 {
+  width: 85px;
+  height: 80px;
+  border-radius: 50%;
+}
+.사람찾기설명 .팔로우버튼 {
+  border: 1px solid #3897f0;
+  background: #3897f0;
+  font-size: 14px;
+}
+
+padding-bottom: 16px;
